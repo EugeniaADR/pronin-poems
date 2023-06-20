@@ -83,14 +83,27 @@
 
   
   @media all and (max-width: 500px) {
-    .all {
-      display: flex;
-      flex-direction: column;
-    }
-    .poet {
-      padding: 15px;
-      font-size: xx-small;
-    }
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.poet {
+  font-size: 12px;
+}
+
+.btn {
+  font-size: 20px;
+  width: 30px
+}
+
+img {
+  width: 200px;
+}
   }
 
   
