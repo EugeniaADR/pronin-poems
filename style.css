@@ -1,13 +1,11 @@
 
   body {
     background-image: url(road.jpeg);
-    background-size: cover
+    background-size: cover;
+    background-color: skyblue;
   }
 
-  body:hover {
-   background-image: url(picOne.jpeg);
-    transition-duration: 7s;
-  }
+
   img {
     width: 300px;
     border-radius: 20px;
@@ -26,8 +24,7 @@
   h1 {
     font-family: 'Montserrat', sans-serif;
     background:antiquewhite;
-    opacity: 0.7;
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 15px;
     font-size: 45px;
   }
@@ -83,6 +80,11 @@
 
   
   @media all and (max-width: 500px) {
+
+    body{
+      background-repeat: no-repeat;
+      background-color: skyblue;
+    }
 
 h1 {
   font-size: 12px;
