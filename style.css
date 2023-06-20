@@ -1,14 +1,12 @@
-/* body {
-    background-color: #7d6e83;
-  }
-  body:hover {
-    background-color: #f8ede3;
-    transition-duration: 3s;
-  } */
 
   body {
     background-image: url(road.jpeg);
     background-size: cover
+  }
+
+  body:hover {
+   background-image: url(picOne.jpeg);
+    transition-duration: 7s;
   }
   img {
     width: 300px;
@@ -27,9 +25,9 @@
   }
   h1 {
     font-family: 'Montserrat', sans-serif;
-    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    padding: 15px
+    /* box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2); */
+    /* border-radius: 5px; */
+    /* padding: 15px */
   }
   h2 {
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
@@ -40,26 +38,57 @@
   }
   .all {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+
   }
-  .poet {
-    padding: 25px;
+
+  /* #container {
+    display: flex;
+    flex-direction: row;
+    
+  } */
+  /* .container  {
+    padding: 20px;
     background-color:antiquewhite;
     margin: 10px;
     border-radius: 30px;
     opacity: 0.7;
     box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-  }
-
-  .container{
+    width: 30%;
     display: flex;
-
-  
+    
+  } */
+  .poet {
+    padding: 20px;
+    background-color:antiquewhite;
+    margin: 10px;
+    border-radius: 30px;
+    opacity: 0.7;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    width: 60%;
+    font-size:xx-large; 
+    white-space: pre-line;
   }
-  .btn{
-    height: 100px;
+
+
+  .btn {
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+   font-size: xx-large;
+    border: none;
+    background-color:antiquewhite;
+    align-self:flex-start;
+    width:120px;
+    height: 10vh;
+  }
+
+  .poem {
+    display: flex;
+  
+
   }
 
   
